@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+body{
+    margin: 0 auto;
+    font-family: "Lato";
+    max-width: 1230px;
+}
+.title{
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+    color: #1E212C;
+    margin-bottom: 40px;
+}
+.page{
+    max-width: 600px;
+}
+.page-content p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #424551;
+    margin-bottom: 48px;
+}
+.list{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 150%;
+    color: #1E212C;
+    margin-bottom: 24px;
+}
+.list-content{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #424551;
+}
+.list-content li{
+    padding-left: 32px;
+    background: url('../img/icons/check.png') 0 6px no-repeat;
+}
+
+.list-content:not(:last-child) {
+	margin-bottom: 4px;
+}
+.title-two{
+    margin-top: 114px;
+    margin-bottom: 8px;
+}
+.title-two p {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #1E212C;
+}
+.title-three{
+    margin-bottom: 16px;
+}
+.title-three p{
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+    color: #1E212C;
+}
+.title-four{
+    margin-bottom: 32px;
+}
+.title-four p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #787A80;
+}
+.sub-title{
+    margin-bottom: 32px;
+}
+.sub-title ul{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    color: #424551;
+}
+.sub-title li:first-child{
+    background: url('../img/icons/Star.png') 0 6px no-repeat;
+    padding-left: 24px ;
+}
+.sub-title li:nth-child(2){
+    background: url('../img/icons/Play.png') 0 6px no-repeat;
+    padding-left: 24px ;
+}
+.sub-title li:last-child{
+    background: url('../img/icons/Profile.png') 0 6px no-repeat;
+    padding-left: 24px ;
+}
+.page-content-two{
+    max-width: 600px;
+}
+.page-content-two p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #424551;
+}
+/*=========================Доп ДЗ===============================*/
+.hover{
+    max-width: max-content;
+    background-color: antiquewhite;
+    margin-bottom: 30px;
+}
+.hover:hover{
+    background-color: cyan;
+    border: dotted blueviolet 15px;
+    
+}
+.active{
+    max-width: max-content;
+    background-color: crimson;
+    margin-bottom: 30px;
+}
+.active:hover{
+    background-color: darkslateblue;
+    border:double royalblue 15px;
+}
+.a{
+    max-width: 60px;
+    background-color: aqua;
+    margin-bottom: 30px;
+}
+.a:visited{
+    background-color: burlywood;
+    color: red;
+}
+.focus {
+    max-width: max-content;
+    background-color: blue;
+    color: azure;
+    border: solid 15px darkblue;
+    border-radius: 15%;
+    margin-bottom: 30px;
+}
+
+.focus:focus{
+    background-color: darkgreen;
+    color: azure;
+    border: solid 45px darkblue;
+    border-radius: 30%;
+}
+.target{
+    max-width: max-content;
+    background-color: #787A80;
+    color: aliceblue;
+    text-decoration: underline;
+    text-shadow: 5px 5px 5px;
+    border: grey 7px solid;
+    border-radius: 5px 5px 5px;
+    margin-bottom: 30px;
+}
+.before{
+    max-width: max-content;
+    text-decoration: underline;
+    font-size: 20px;
+    color: whitesmoke;
+    background-color: black;
+    margin-bottom: 30px;
+}
+.before::before{
+    content:"💯";
+}
+.after{
+    max-width: max-content;
+    text-decoration:dotted;
+    font-size: 25px;
+    color: rgba(245, 245, 245, 0.834);
+    background-color:#787A80;
+}
+.after::after{
+    content: "㋛";
+}
+
+
+/*=========================Game===============================*/
+.header{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+.tittel{
+    margin: 0 auto;
+    max-width: 100px;
+    border: red solid 15px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px;
+    background-color: blue;
+}
+.start{
+    max-width: 150px;
+    border: cornflowerblue solid 15px ;
+    border-radius: 12px;
+    background-color: blueviolet;
+    box-shadow: 5px 5px 5px;
+}
+
+.game-item{
+    width: 1080px;
+    height: 700px;
+    background-image: url(../img/game.png);
+    background-repeat: round;
+
+}
+.game-item-one{
+    margin-left: 10px;
+    width: 60px;
+    height: 80px;
+    background-color: blue;
+    opacity: 0;
+}
+.game-item-one:hover  {
+    opacity: 1;
+}
+.game-item-two{
+    margin-left: 10px;
+    width: 900px;
+    height: 80px;
+    background-color: blue;
+    opacity: 0;
+}
+.game-item-two:hover{
+    opacity: 1;
+}
+.game-item-three{
+    margin-left: 865px;
+    width: 45px;
+    height: 120px;
+    background-color: blue;
+    opacity: 0;
+}
+.game-item-three:hover{
+    opacity: 1;
+}
+.game-item-four{
+    margin-left: 45px;
+    width: 865px;
+    height: 35px;
+    background-color: blue;
+    opacity: 0;
+}
+.game-item-four:hover{
+    opacity: 1;
+}
+.game-item-five{
+    margin-left: 45px;
+    width: 30px;
+    height: 120px;
+    background-color: blue;
+    opacity: 0;
+}
+.game-item-five:hover{
+    opacity: 1;
+}
+.game-item-six{
+    margin-left: 45px;
+    width: 800px;
+    height: 20px;
+    background-color: blue;
+    opacity: 0;
+}
+.game-item-six:hover{
+    opacity: 1;
+}
+.game-item-six:hover+.game-item-seven,.game-item-seven:hover{
+    opacity: 1;
+}
+.game-item-seven{
+    margin-left: 830px;
+    width: 60px;
+    height: 60px;
+    background-color: blue;
+    padding-top: 23px;
+    opacity: 0;
+}
+.game-item-seven:hover{
+    background-color: red;
+}
